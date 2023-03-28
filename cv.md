@@ -35,4 +35,10 @@ def get_pins(observed):
         len_pins = len(pins)
         return pins 
 ```
-#### JS:
+
+
+### Work experience:
+**Python:**
+* 2022-2022Q3 - Freelance python development experience in automation;
+* 2022Q1 - Work on the project tracking the time of activity of performers for the site providing boosting services;
+* Taught a python course during college.
