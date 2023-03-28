@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artem CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+<header class="header">
+    <div class="nav-container">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#about">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code">Code example</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages">Languages</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="presentation-container">
+    <div class="desc-presentation-container">
+        <h1>Petrov Artem</h1>
+    </div>
+</div>
+<main>
+    <section class="contacts" id="contacts">
+        <h2>Contact information:</h2>
+        <ul class="contacts-list">
+            <li class="contacts-item">
+                <h4>Location <br> Belarus</h4>
+            </li>
+            <li class="contacts-item">
+                <h4>Email<a href="mailto:svinpetr18@gmail.com"><br>svinpetr18@gmail.com</a></h4>
+            </li>
+            <li class="contacts-item">
+                <h4>GitHub<a href="https://github.com/fymg"><br>@fymg</a></h4>
+            </li>
+            <li class="contacts-item">
+                <h4>Telegram<a href="tg:https://t.me/Fyyoops"><br>@Fyyoops</a></h4>
+            </li>
+        </ul>
+    </section>
+    <div class="gradient-background wight-100-div">
+        <section class="about" id="about">
+            <h2>A few words about myself</h2>
+            <p>As a highly motivated and technically proficient individual, I am passionate about programming and technology. I have gained extensive experience in programming with Python, which has enabled me to develop complex applications and solutions to real-world problems. My proficiency in coding has enabled me to successfully complete several freelance projects, where I helped clients solve their business challenges and increase efficiency using technical solutions.</p>
+            <p>I graduated from Kingisepp College of technology and service with a degree in Information Technology, where I honed my skills in system analysis, design, and development. During my college years, I gained invaluable experience working on several technology projects, which helped me develop my analytical and critical thinking skills. I also worked on several technology-related extracurricular activities, which allowed me to work collaboratively with other IT professionals to create innovative solutions.</p>
+            <p>As I seek new opportunities, I am excited to apply my passion, creativity, and technical expertise to help companies achieve their business goals through technology.</p>
+        </section>
+    </div>
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li class="skills-item">HTML CSS basics, <br>JavaScript basics</li>
+            <li class="skills-item">Git, GitHub</li>
+            <li class="skills-item">Trello, Miro, Slack</li>
+            <li class="skills-item">VS Code,<br>Web Storm,<br>Atom</li>
+            <li class="skills-item">Figma</li>
+            <li class="skills-item">Python</li>
+            <li class="skills-item">Django (django rest), <br> Fast api</li>
+            <li class="skills-item">aio-gram</li>
+            <li class="skills-item">Postgres,<br> Mongo db</li>
+        </ul>
+    </section>
+    <div class="gradient-background wight-100-div">
+    <section class="code" id="code">
+        <h2>Code example</h2>
+        <h3>Python:</h3>
+        <code>
+            <span>The observed PIN(4 kyu)</span>
+            <br>
+            <br>
+            pins = [""] <br>
+            num_dict = {'0':["0","8"],
+            '1':["1","2","4"],
+            '2':["1","2","3","5"],
+            '3':["2","3","6"],
+            '4':["1","4","5","7"],
+            '5':["2","4","5","6","8"],
+            '6':["3","5","6","9"],
+            '7':["4","7","8"],
+            '8':["5","7","8","9","0"],
+            '9':["6","8","9"]}<br>
+            len_pins = len(pins)<br>
+            for i in observed:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;for z in num_dict[i]:<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for y in range(len(pins[:len_pins])):<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pins.append(pins[y]+z)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pins = pins[len_pins:]<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;len_pins = len(pins)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;return pins
+        </code>
+    </section>
+    </div>
+    <section class="experience" id="experience">
+        <h2>Work experience and education</h2>
+        <ul class="experience-list">
+            <li class="experience-item"><b>Python:</b></li>
+            <li class="experience-item">2022-2022Q3 - Freelance python development experience in automation;</li>
+            <li class="experience-item">2022Q1 - Work on the project tracking the time of activity of performers for the site providing boosting services;</li>
+            <li class="experience-item">Taught a python course during college.<br></li>
+            <li class="experience-item" id="education-courses"><b>Education:</b></li>
+            <li class="experience-item"><a target="_blank" href="https://stepik.org/cert/335145">Python in Examples and Tasks</a></li>
+            <li class="experience-item"><a target="_blank" href="https://stepik.org/cert/382470">Fundamentals of information theory</a></li>
+            <li class="experience-item"><a target="_blank" href="https://stepik.org/cert/895589">Introduction to databases</a></li>
+            <li class="experience-item"><a target="_blank"  href="https://stepik.org/cert/1382925">Web project security analysis</a></li>
+            <li>
+                <a href="https://rs.school/js-stage1/"><b>School Course «JavaScript/Front-end. Stage 0</b></a>
+            </li>
+            <li class="experience-item">(in progress)<br></li>
+            <li class="experience-item" id="education"><b>Student of Kingisepp College of technology and service</b></li>
+            <li class="experience-item-after">2018-2022</li>
+        </ul>
+    </section>
+    <div class="gradient-background wight-100-div">
+        <section class="languages" id="languages">
+            <h2>Languages</h2>
+            <p><b>Russian:</b> native.</p>
+        </section>
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer-container">
+        <nav class="footer-links">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="https://rs.school/js/">Made with enthusiasm at
+                        <img id="rss-logo" src="./img/rss-school.png" alt="RSS logo">
+                        <span>&#128155;</span>
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <span>2023</span>
+                </li>
+                <li class="footer-item">
+                    <a href="https://github.com/fymg/">See my other projects at
+                        <img id="github-logo" src="./img/github.png" alt="GitHub logo">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
