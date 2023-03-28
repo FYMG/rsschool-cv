@@ -48,3 +48,5 @@ def get_pins(observed):
 * [Fundamentals of information theory](https://stepik.org/cert/382470)
 * [Introduction to databases](https://stepik.org/cert/895589)
 * [Web project security analysis](https://stepik.org/cert/1382925)
+### Languages:
+**Russian:** native  
