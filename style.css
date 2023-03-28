@@ -87,11 +87,11 @@ ul > li {
 
 .header {
     width: 100%;
+    background: #1e1e1e;
     margin-top: -170px;
     padding-top: 40px;
     padding-bottom: 10px;
     position: fixed;
-    background-color: #222;
     box-shadow: 0 7px 7px -4px rgba(0, 0, 0, 25%);
     z-index: 1;
 }
@@ -154,7 +154,7 @@ ul > li {
     text-align: center;
     padding: 30px;
     border-radius: 30px;
-    background: #333;
+    background: #1e1e1e;
     box-shadow: 0 0 25px 0 rgb(0 0 0 / 50%);
     margin: 15px 15px 100px;
 }
@@ -174,6 +174,8 @@ ul > li {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .about h2 {
@@ -213,7 +215,7 @@ ul > li {
     padding: 30px;
     margin: 15px;
     border-radius: 30px;
-    background: #333;
+    background: #1e1e1e;
     box-shadow: 0 0 25px 0 rgb(0 0 0 / 50%);
 }
 
@@ -222,6 +224,8 @@ ul > li {
 }
 
 .code {
+    padding-bottom: 55px;
+    padding-top: 55px;
     width: 1000px;
     display: flex;
     flex-direction: column;
@@ -257,6 +261,8 @@ ul > li {
 }
 
 .languages {
+    padding-bottom: 55px;
+    padding-top: 55px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -264,7 +270,7 @@ ul > li {
 
 .languages h2 {
     text-align: center;
-    margin: 100px auto 40px auto;
+    margin: 0 auto 0 auto;
 }
 
 .languages p {
